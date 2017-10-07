@@ -1,0 +1,13 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    font-family: 'Domine', serif;
+}
+
+#div1 {
+    border-style: solid;
+    border-color: black;
+    background-color: lightblue;
+}
