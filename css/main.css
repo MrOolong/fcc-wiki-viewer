@@ -1,6 +1,7 @@
 body {
     background-color: grey;
     display: flex;
+    margin: 5px;
 }
 
 h1 {
