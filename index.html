@@ -12,21 +12,23 @@
 </head>
 <body>
     <!--Random Wiki Link-->
-    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><div id="div1">
+    <!--<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><div id="div1">
         <h1><div>Fetch</div><div>Random</div><div>Wiki</div><div>Article</div></h1>
     </div>
-    </a>
+    </a>-->
+    <!--Instructions on how to search-->
+    <div id="div2" class="text-center">
+        <h1>Why go to Wikipedia? Just search below.</h1>
+    </div>
     <!--Form to search specific topics-->
-    <div id="div2">
-        <br>
+    <div id="div3" class="text-center">
         <form><input id="searchInput" type="text" placeholder="Search Topics Here" name=""/></form>
-        <button id="searchButton">Search</button>
+        <br>
+        <button class="btn" id="searchButton">Search</button>
+        <button class="btn" id="randomWikiFetch"><a href="https://en.wikipedia.org/wiki/Special:Random"  target="_blank">Fetch a Random Wiki</a></button>
     </div>
     
-    <!--Instructions on how to search-->
-    <div id="div3">
-        <h3>Click inside the form box to start searching topics. Click search to return results.</h3>
-    </div>
+    
     
     <div id="returnSearch"></div>
 </body>
