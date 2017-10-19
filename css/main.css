@@ -20,6 +20,7 @@ h1 {
 #div2 {
     padding: 20px;
     font-family: 'Domine', serif;
+    color: white;
 }
 
 #div3 {
@@ -27,5 +28,5 @@ h1 {
 }
 
 #searchInput {
-    width: 50%;
+    width: 35%;
 }
